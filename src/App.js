@@ -11,6 +11,7 @@ import { AddPostForm } from './features/posts/AddPostForm'
 import { SinglePostPage } from './features/posts/SinglePostPage'
 import { Navbar } from './app/Navbar'
 import { EditPostForm } from './features/posts/EditPostForm'
+import { PostAuthor } from './features/posts/PostAuthor'
 
 
 function App() {
