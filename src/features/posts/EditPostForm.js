@@ -16,6 +16,7 @@ export const EditPostForm = ({ match }) => {
 
   const dispatch = useDispatch()
   const history = useHistory()
+  console.log(history)
 
   const onTitleChanged = e => setTitle(e.target.value)
   const onContentChanged = e => setContent(e.target.value)
